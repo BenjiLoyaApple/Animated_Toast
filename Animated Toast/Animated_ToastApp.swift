@@ -11,7 +11,9 @@ import SwiftUI
 struct Animated_ToastApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+      //      RootView {
+                ContentView()
+       //     }
         }
     }
 }

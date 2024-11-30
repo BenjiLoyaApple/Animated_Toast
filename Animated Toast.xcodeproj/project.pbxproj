@@ -11,6 +11,7 @@
 		E4E5C9E32B30A7470068A92A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5C9E22B30A7470068A92A /* ContentView.swift */; };
 		E4E5C9E52B30A7480068A92A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E5C9E42B30A7480068A92A /* Assets.xcassets */; };
 		E4E5C9E82B30A7480068A92A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4E5C9E72B30A7480068A92A /* Preview Assets.xcassets */; };
+		E4E5C9EF2B30A7540068A92A /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E5C9EE2B30A7540068A92A /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E4E5C9E22B30A7470068A92A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E4E5C9E42B30A7480068A92A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4E5C9E72B30A7480068A92A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E4E5C9EE2B30A7540068A92A /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				E4E5C9E02B30A7470068A92A /* Animated_ToastApp.swift */,
+				E4E5C9F02B30A76C0068A92A /* Helpers */,
 				E4E5C9E22B30A7470068A92A /* ContentView.swift */,
 				E4E5C9E42B30A7480068A92A /* Assets.xcassets */,
 				E4E5C9E62B30A7480068A92A /* Preview Content */,
@@ -65,6 +68,14 @@
 				E4E5C9E72B30A7480068A92A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E4E5C9F02B30A76C0068A92A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E4E5C9EE2B30A7540068A92A /* Toast.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4E5C9E32B30A7470068A92A /* ContentView.swift in Sources */,
+				E4E5C9EF2B30A7540068A92A /* Toast.swift in Sources */,
 				E4E5C9E12B30A7470068A92A /* Animated_ToastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

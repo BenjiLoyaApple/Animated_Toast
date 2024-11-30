@@ -10,15 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Button("Present Toast") {
+                Toast.shared.present(
+                    title: "AirPods Pro",
+                    symbol: "airpodspro",
+                    isUserInteractionEnabled: true,
+                    timing: .long
+                )
+            }
         }
         .padding()
     }
 }
 
 #Preview {
-    ContentView()
+    RootView {
+        ContentView()
+    }
 }
